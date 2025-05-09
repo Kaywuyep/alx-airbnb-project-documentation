@@ -9,10 +9,10 @@ This document outlines the technical and functional requirements for key backend
 * **Description:** Allows new users (both guests and hosts) to create an account.
 * **API Endpoint:** `POST /api/auth/register`
 * **Input:**
-    * `email` (string, required, unique, valid email format, max length: 255)
+    * `email` (string, required, unique, valid email format, max length: 50)
     * `password` (string, required, minimum length: 8, must contain at least one uppercase letter, one lowercase letter, and one digit)
-    * `first_name` (string, required, max length: 50)
-    * `last_name` (string, required, max length: 50)
+    * `first_name` (string, required, max length: 100)
+    * `last_name` (string, required, max length: 100)
     * `user_type` (string, required, enum: ['guest', 'host'])
     * `phone_number` (string, optional, valid phone number format, max length: 20)
 * **Output (Success - HTTP 201 Created):**
