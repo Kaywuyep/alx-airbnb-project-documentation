@@ -4,7 +4,7 @@ This directory contains the documentation outlining the key features and functio
 
 ## Contents
 
-* `![alt text](image.png)`: A visual representation (diagram) created using Draw.io, detailing the backend features and their functionalities, including user authentication, property management, booking system, and payments.
+* ![alt text](image-1.png): A visual representation (diagram) created using Draw.io, detailing the backend features and their functionalities, including user authentication, property management, booking system, and payments.
 
 ## Purpose
 
